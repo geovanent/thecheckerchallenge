@@ -1,0 +1,42 @@
+  table.comicGreen {
+    border: 2px solid #4F7849;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  table.comicGreen td, table.comicGreen th {
+    border: 1px solid #4F7849;
+    padding: 3px 2px;
+  }
+  table.comicGreen tbody td {
+    font-weight: bold;
+  }
+  table.comicGreen tr:nth-child(even) {
+    background: #CEE0CC;
+  }
+
+  .verifyButton {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:8px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.verifyButton:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.verifyButton:active {
+	position:relative;
+	top:1px;
+}
